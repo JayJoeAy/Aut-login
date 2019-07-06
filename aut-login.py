@@ -1,6 +1,6 @@
 from webbot import Browser 
 web = Browser()
-web.go_to('https://login.aut.ac.ir/login') 
+web.go_to('https://internet.aut.ac.ir/') 
 web.type('m_erfan_hamdi' , into='username')
 web.type('25HK884V5' , into='password')
 web.click('ورود')
