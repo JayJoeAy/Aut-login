@@ -1,9 +1,6 @@
 from webbot import Browser 
 web = Browser()
 web.go_to('https://internet.aut.ac.ir/') 
-web.type('m_erfan_hamdi' , into='username')
-web.type('25HK884V5' , into='password')
+web.type('put your username here' , into='username') #enter your username here !
+web.type('put your password here' , into='password') #Enter your password here !
 web.click('ورود')
-#web.click('NEXT' , tag='span')
-#web.type('mypassword' , into='Password' , id='passwordFieldId') # specific selection
-#web.click('NEXT' , tag='span') # you are logged in ^_^
